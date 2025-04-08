@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{base::layout(~{::section})}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexBuy-Product Details</title>
+</head>
+<body>
+    <section>
+        <div class="container card-sh" style="margin-top: 70px; margin-bottom: 50px;">
+            <p class="fs-3 fw-bold text-center p-1">Product Details</p>
+            <div class="col-md-12 p-5">
+                <div class="row">
+                    <div class="col-md-6 text-end">
+                        <img src="img/latestProducts/iphone.jpg" alt="" width="330px" height="400px">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="fs-3">Iphone 16 pro</p>
+                        <p>
+                            <span class="fw-bold">Description: </span><br>Iphone 16 pro max 256gb
+                        </p>
+                        <p>
+                            <span class="fw-bold">Product Details: </span><br>Status:
+                            <span class="badge bg-success">Available</span>
+                            <span class="bagde bg-warning">Out of Stock</span><br>Category: Iphone<br>
+                            policy : 7 days Replacement & Return
+                        </p>
+                        <p class="fs-5 fw-bold">
+                            Price : &nbsp; &nbsp; &nbsp; &nbsp;<i class="fas fa-rupee-sign"></i> 120000 
+                            <span class="fs-6 text-decoration-line-through text-secondary">5000</span>
+                            <span class="fs-6 text-success"> 12% off</span>
+                        </p>
+                        <div class="row">
+                            <div class="col-md-4 text-success text-center p-2">
+                                <i class="fas fa-money-bill-wave fa-2x"></i>
+                                <p>Cash on Delivery</p>
+                            </div>
+                            <div class="col-md-4 text-danger text-center p-2">
+                                <i class="fas fa-undo-alt fa-2x"></i>
+                                <p>Return Available</p>
+                            </div>
+                            <div class="col-md-4 text-primary text-center p-2">
+                                <i class="fas fa-truck-moving fa-2x"></i>
+                                <p>Free Shipping</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-danger col-md-12">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
