@@ -12,4 +12,14 @@ public class AdminController {
     public String index() {
         return "/admin/index";
     }
+
+    @GetExchange("/addProduct")
+    public String addProduct() {
+        return "/admin/addProduct";
+    }
+
+    @GetExchange("/addCategory")
+    public String addCategory() {
+        return "/admin/addCategory";
+    }
 }
